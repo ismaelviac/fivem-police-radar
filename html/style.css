@@ -1,0 +1,90 @@
+#radar-panel {
+  display: none;}
+body {
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  font-family: 'Consolas', monospace;
+}
+
+#radar-panel {
+  display: none;
+  position: absolute;
+  bottom: 2%;
+  right: 1%;
+  left: auto;
+  transform: none;
+  background: #222c;
+  border-radius: 12px;
+  border: 2px solid #00bfff;
+  width: 480px;
+  padding: 18px 24px;
+  box-shadow: 0 0 20px #000a;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: #00bfff;
+  font-size: 1.2em;
+  margin-bottom: 8px;
+  letter-spacing: 2px;
+}
+
+.plates {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.plates > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plate {
+  background: #fff4;
+  margin: 2px 0;
+  padding: 6px 16px;
+  border-radius: 6px;
+  color: #222;
+  font-size: 1.1em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: 1.5px solid #aaa;
+  box-shadow: 0 2px 6px #0003;
+}
+
+.model {
+  background: #333a;
+  margin: 2px 0;
+  padding: 4px 10px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 0.95em;
+  font-style: italic;
+}
+
+.speed {
+  background: #111d;
+  margin: 2px 0;
+  padding: 6px 16px;
+  border-radius: 6px;
+  color: #0f0;
+  font-size: 1.4em;
+  font-weight: bold;
+  border: 1.5px solid #0f0;
+  box-shadow: 0 2px 8px #0f03;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  color: #ccc;
+  font-size: 0.9em;
+  margin-top: 12px;
+  text-shadow: 1px 1px 2px #000a;
+}
