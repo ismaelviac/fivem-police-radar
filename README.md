@@ -1,17 +1,9 @@
 # fivem-police-radar
 -----INSTALL---
 
-Go to esx_policejob folder
-
-Drop speed.lua on client folder
-
-Add this line on client scrips in esx_policejob fxmanifies.lua 'client/speed.lua'
+Put it in the resources folder and start
 
 
 (ES)
 
-Abre la carpeta esx_policejob
-
-Pon el archibo speed.lua en la carpeta client
-
-Añade la lienea 'client/speed.lua' al fxmanifies.lua en el apartado client scripts
+Pon en la carpeta resources e inicia
